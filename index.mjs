@@ -9,3 +9,7 @@ socket.on("message", (msg, info) => {
     console.log(`My Server got a datagram ${msg}, from ${info.address}:${info.port}`);
     
 })
+
+/*
+Use `nc -u 127.0.0.1 5500` to send datagrams
+*/
